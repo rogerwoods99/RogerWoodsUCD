@@ -29,3 +29,5 @@ for key, value in json_data.items():
 df=pd.json_normalize(json_data)
 print(df.columns)
 print(df)
+
+print(df)
