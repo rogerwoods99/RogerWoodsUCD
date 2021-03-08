@@ -76,5 +76,7 @@ for y in range(4):
     for w in range(5):
         grDat.loc[y*5 + w, "Elev"]=newdf.loc[w,"elevation"]
 
+# need to get the JSON file into a DF with the elevation, lat and long so that I can do a left join
+stations_new=stations.merge(ridership, on="station_id", how="left")
 
 print(grDat)
