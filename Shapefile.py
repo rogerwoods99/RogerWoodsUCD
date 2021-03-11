@@ -1,6 +1,7 @@
+import matplotlib.pyplot as plt
 import shapefile
 #import geopandas as gpd
-import matplotlib.pyplot as plt
+
 import numpy as np
 from shapely import wkt
 from shapely.geometry import Point # Point class
