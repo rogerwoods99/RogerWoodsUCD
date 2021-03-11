@@ -1,11 +1,11 @@
 # Basic scatter plot, log scale
 import pandas as pd
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as pltireland wind
 import seaborn as sns
 from matplotlib import cm
 import numpy as np
 #from pyproj import Proj, transform
-from pyproj import Transformer
+#from pyproj import Transformer
 
 #print(reproject_wgs_to_itm(-7.748108, 53.431628))
 from matplotlib.colors import ListedColormap, LinearSegmentedColormap
